@@ -1,0 +1,4 @@
+# only for re-cutting the sheet / re-mapping the song (run on a desktop)
+-r requirements.txt
+scipy>=1.10
+Pillow>=10

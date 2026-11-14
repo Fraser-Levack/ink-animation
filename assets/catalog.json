@@ -1,0 +1,51 @@
+{
+  "_comment": "Names and roles for drawings on the sheet. Each sprite is matched to the entry whose 'near' point (sheet pixels) is closest to its centre. Sprites that match nothing get a role from their size, so new drawings just work. Sprites whose centre falls in a decor_rect are text/marks.",
+  "match_radius": 90,
+  "decor_rects": [
+    [0, 0, 560, 220],
+    [300, 105, 1280, 152],
+    [125, 280, 190, 1000],
+    [300, 425, 560, 455]
+  ],
+  "merge_rects": [
+    [1760, 1100, 2300, 1400]
+  ],
+  "forms": {
+    "egg_0":     {"near": [450, 300],  "role": "walker",  "species": "egg",   "frame": 0},
+    "egg_1":     {"near": [635, 297],  "role": "walker",  "species": "egg",   "frame": 1},
+    "egg_2":     {"near": [819, 292],  "role": "walker",  "species": "egg",   "frame": 2},
+    "egg_3":     {"near": [993, 288],  "role": "walker",  "species": "egg",   "frame": 3},
+    "egg_4":     {"near": [1173, 290], "role": "walker",  "species": "egg",   "frame": 4},
+
+    "gnome_0":   {"near": [455, 568],  "role": "sprite",  "species": "gnome", "frame": 0},
+    "gnome_1":   {"near": [642, 562],  "role": "sprite",  "species": "gnome", "frame": 1},
+    "gnome_2":   {"near": [816, 564],  "role": "sprite",  "species": "gnome", "frame": 2},
+    "gnome_3":   {"near": [1010, 561], "role": "sprite",  "species": "gnome", "frame": 3},
+    "gnome_4":   {"near": [1192, 566], "role": "sprite",  "species": "gnome", "frame": 4},
+
+    "fuzz_0":    {"near": [167, 1091], "role": "mote",    "species": "fuzz",  "frame": 0},
+    "fuzz_1":    {"near": [195, 1302], "role": "mote",    "species": "fuzz",  "frame": 1},
+    "fuzz_2":    {"near": [229, 1556], "role": "mote",    "species": "fuzz",  "frame": 2},
+    "fuzz_3":    {"near": [183, 1792], "role": "mote",    "species": "fuzz",  "frame": 3},
+
+    "bird":      {"near": [2085, 554], "role": "beast"},
+    "kiwi":      {"near": [2077, 912], "role": "beast"},
+    "lemur":     {"near": [481, 800],  "role": "beast"},
+    "cat":       {"near": [864, 795],  "role": "beast"},
+    "shark_man": {"near": [1572, 776], "role": "beast",   "predator": true},
+    "toothfish": {"near": [452, 1212], "role": "beast",   "predator": true},
+
+    "old_man":   {"near": [1223, 800], "role": "face"},
+    "afro":      {"near": [2017, 193], "role": "face"},
+    "smirk":     {"near": [1191, 1240],"role": "face",    "predator": true},
+    "chef":      {"near": [1557, 1191],"role": "face"},
+    "cap":       {"near": [1395, 1732],"role": "face"},
+    "star":      {"near": [1847, 1681],"role": "face"},
+    "helmet":    {"near": [483, 1721], "role": "face"},
+
+    "cube":      {"near": [1526, 281], "role": "structure", "kind": "cube"},
+    "sign":      {"near": [831, 1174], "role": "structure", "kind": "sign"},
+    "train":     {"near": [1962, 1233],"role": "structure", "kind": "machine"},
+    "church":    {"near": [948, 1728], "role": "structure", "kind": "church"}
+  }
+}

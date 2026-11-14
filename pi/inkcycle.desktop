@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=inkcycle
+Comment=Conserved Ink - a drawing that eats itself
+Exec=/home/pi/inkcycle/pi/run.sh
+X-GNOME-Autostart-enabled=true
