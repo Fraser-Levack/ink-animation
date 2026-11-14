@@ -41,7 +41,7 @@ def read_bpm_tag(path: Path) -> float | None:
 
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    song = Path(args[0]) if args else ROOT / "unknown.mp3"
+    song = Path(args[0]) if args else ROOT / "Crashout.mp3"
     bpm = read_bpm_tag(song)
     if "--bpm" in sys.argv:
         bpm = float(sys.argv[sys.argv.index("--bpm") + 1])

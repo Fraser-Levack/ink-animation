@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parent.parent
 class Config:
     # files
     forms_path: Path = ROOT / "assets" / "forms.json"
-    song_path: Path = ROOT / "unknown.mp3"
+    song_path: Path = ROOT / "Crashout.mp3"
     song_map_path: Path = ROOT / "assets" / "song.json"
 
     # display
